@@ -1,9 +1,3 @@
-.container,
-.section-four,
-.footer {
-    border: 1px solid black;
-}
-
 .header {
     font-size: 24px;
     color: #f9faf8;
@@ -17,7 +11,10 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
+    text-transform: lowercase;
+    padding-left: 60px;
+
 }
 
 
@@ -29,14 +26,16 @@
 
 }
 
+.link:hover {
+    color: #e5e7eb56;
+}
+
 .section-one {
     background-color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 200px;
-
-
 }
 
 .p1 {
@@ -53,7 +52,6 @@
 }
 
 .section1-div {
-    /* border: 1px solid white; */
     margin-left: 30px;
     height: 250px;
     width: 500px;
@@ -61,17 +59,31 @@
 }
 
 .section1-div2 {
-    /* border: 1px solid white; */
     height: 250px;
     width: 500px;
     margin-bottom: 30px;
+    margin-right: 10px;
 
 }
 
 .signup-button1 {
-    padding: 0px 9px 0px 9px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 7px;
     background-color: #3882f6;
     color: #E5E7EB;
+    font-size: 15px;
+    font-weight: bold;
+    border-style: none;
+}
+
+.signup-button1:hover {
+    background-color: #E5E7EB;
+    color: #3882f6;
+    cursor: pointer;
+}
+
+.section-two {
+    margin-top: 60px;
 }
 
 .info {
@@ -94,13 +106,15 @@
     width: 190px;
 }
 
+
+
 .section-three {
-    height: 500px;
+    height: 400px;
     margin-top: 160px;
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1f2937;
-    /* text-align: start; */
+
 
 }
 
@@ -113,12 +127,8 @@
 }
 
 .autor {
-    font-weight: bolder;
-    font-style: normal;
-    text-align: right;
     font-size: 20px;
-
-
+    margin-left: 70px;
 }
 
 .section-four {
@@ -126,7 +136,7 @@
     margin: 50px;
     display: flex;
     justify-content: center;
-
+    border-radius: 5px;
 }
 
 .p4 {
@@ -135,16 +145,28 @@
     color: #E5E7EB;
 }
 
+
 .button2 {
     color: #E5E7EB;
     background-color: #3882f6;
     margin: 50px;
-    border-radius: 15px;
+    border-radius: 5px;
     border: 2px #E5E7EB solid;
+    padding: 5px 20px 5px 20px;
+    font-weight: bold;
+}
+
+.button2:hover {
+    background-color: #E5E7EB;
+    color: #3882f6;
+    cursor: pointer;
+
 }
 
 .footer {
     background-color: #1f2937;
     color: #E5E7EB;
     text-align: center;
+    padding: 15px;
+
 }
