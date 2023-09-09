@@ -1,0 +1,150 @@
+.container,
+.section-four,
+.footer {
+    border: 1px solid black;
+}
+
+.header {
+    font-size: 24px;
+    color: #f9faf8;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: #E5E7EB;
+    background-color: #1f2937;
+    font-size: 18px;
+
+}
+
+.section-one {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+
+
+}
+
+.p1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin-bottom: -1px;
+}
+
+.p2 {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: start;
+}
+
+.section1-div {
+    /* border: 1px solid white; */
+    margin-left: 30px;
+    height: 250px;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.section1-div2 {
+    /* border: 1px solid white; */
+    height: 250px;
+    width: 500px;
+    margin-bottom: 30px;
+
+}
+
+.signup-button1 {
+    padding: 0px 9px 0px 9px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.image {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    height: 125px;
+    width: 190px;
+}
+
+.section-three {
+    height: 500px;
+    margin-top: 160px;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1f2937;
+    /* text-align: start; */
+
+}
+
+.quote {
+    font-style: italic;
+    font-weight: lighter;
+    box-sizing: border-box;
+    padding: 75px 600px;
+    text-align: start;
+}
+
+.autor {
+    font-weight: bolder;
+    font-style: normal;
+    text-align: right;
+    font-size: 20px;
+
+
+}
+
+.section-four {
+    background-color: #3882f6;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.p4 {
+    padding: 20px 100px;
+    text-align: start;
+    color: #E5E7EB;
+}
+
+.button2 {
+    color: #E5E7EB;
+    background-color: #3882f6;
+    margin: 50px;
+    border-radius: 15px;
+    border: 2px #E5E7EB solid;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #E5E7EB;
+    text-align: center;
+}
